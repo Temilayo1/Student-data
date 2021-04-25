@@ -1,0 +1,53 @@
+start
+print Hello
+print Do you want to register a new student
+if no
+	end program
+if yes
+	print Enter department name
+	read user response
+	if department does not exist
+		print Department does not exist please re enter department
+		read user response
+		check if department exists again
+	if department exists
+		print Registeration is about to begin
+		print Enter full name and press enter key to continue
+		read response
+		if user pressed enter
+			print Enter gender
+			read response
+		if user pressed enter
+			print Enter phone number
+			read response
+		if user pressed enter
+			print Enter email address
+			read response
+		if user pressed enter
+			print Enter residential address
+			read response
+		if user pressed enter
+			print Enter bio
+			read response
+		if user pressed enter
+			print Enter school fees
+			read response
+		print Registeration has ended
+		print All registeration information entered by user
+	print Would you like to enter a new student information
+	read response
+	if no 
+		end program
+	if yes
+		restart program
+		
+		
+		
+		
+Possible Sharing of work
+- one person work on creation of the user class and department class with the variables, constructor
+- one person to make the welcome prompt messsage and the conditional statement to check if the admin wants to register or not 
+- two people to work on the registeration function where the user is asked questions and answers
+- one person to work on the department check function where you check to see if the dept exists
+- one person to compile the entire program together and fill in anything missing - I(Simi) volunteer to do this
+		
